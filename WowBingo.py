@@ -15,10 +15,10 @@ class WowBingo:
     bingo_options = list(reader)
     return bingo_options
 
-  def generate_board(self):
+  def generate_board(self, user_name):
     board_layout = self.generate_board_layout()
     bingo_board = BingoBoard(board_layout)
-    board_image = bingo_board.generate_board_image()
+    board_image = bingo_board.generate_board_image(user_name=user_name)
 
     return board_image
 
