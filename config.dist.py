@@ -1,3 +1,3 @@
 auth = dict(
-  token = 'your_token_here'
+    token = 'your_token_here'
 )
