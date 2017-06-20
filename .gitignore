@@ -1,6 +1,5 @@
 .idea/
 config.py
-bingo_boards/*
+bingo_boards/*.png
 __pycache__/*
-*.pyc
-**.pyc
+**/*.pyc
